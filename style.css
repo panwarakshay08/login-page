@@ -1,0 +1,151 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+body {
+	background: #080710;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.container {
+	height: 600px;
+	width: 400px;
+	background: rgba(255, 255, 255, 0.2);
+	border: 1px solid white;
+	border-radius: 20px;
+}
+
+.FP {
+	margin-top: 5px;
+}
+
+h1 {
+	text-align-last: center;
+	margin-top: 30px;
+	color: white;
+}
+
+form {
+	margin-top: 30px;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	color: white;
+  border: 1px solid white;
+	border-radius: 20px;
+  height: 600px;
+  width: 450px;
+  align-items: center;
+  background-color: rgba(245, 245, 245, 0.25);  
+}
+
+.label {
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+.Username {
+	height: 25px;
+	width: 350px;
+	color: white;
+	background: rgba(255, 255, 255, 0.1);
+	border: none;
+	padding: 20px;
+	font-size: 15px;
+	margin-top: 3px;
+}
+.Password {
+	height: 25px;
+	width: 350px;
+	color: white;
+	background: rgba(255, 255, 255, 0.1);
+	border: none;
+	padding: 20px;
+	font-size: 15px;
+	margin-top: 3px;
+}
+
+#submit {
+	margin-top: 30px;
+	height: 50px;
+	font-size: 25px;
+	font-weight: bold;
+	background: smokewhite;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input:focus {
+     outline: none;
+}
+
+.social {
+	height: 40px;
+	width: 100%;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.google {
+	width: 150px;
+	padding: 15px 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: white;
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+.fb {
+	width: 150px;
+	padding: 15px 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: white;
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+input:focus{
+     outline: none;
+}
+
+.circle{
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	background: #1845ad;
+	border-radius: 50%;
+	margin: -100px -100px;
+	z-index: -1;
+	filter: blur(5px);
+}
+
+.circle2{
+	margin: 550px 350px;
+	background: #ff512f;
+}
+
+.google:hover{
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.fb:hover{
+	background: rgba(255, 255, 255, 0.5);
+}
